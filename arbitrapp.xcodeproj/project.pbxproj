@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		242B839213D35F03000BAA9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242B839113D35F03000BAA9D /* UIKit.framework */; };
+		242B839413D35F03000BAA9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242B839313D35F03000BAA9D /* Foundation.framework */; };
+		242B839613D35F03000BAA9D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242B839513D35F03000BAA9D /* CoreGraphics.framework */; };
+		242B839C13D35F03000BAA9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 242B839A13D35F03000BAA9D /* InfoPlist.strings */; };
+		242B839F13D35F03000BAA9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 242B839E13D35F03000BAA9D /* main.m */; };
+		242B83A213D35F03000BAA9D /* arbitrappAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 242B83A113D35F03000BAA9D /* arbitrappAppDelegate.m */; };
+		242B83A513D35F03000BAA9D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 242B83A313D35F03000BAA9D /* MainWindow.xib */; };
+		242B83A813D35F03000BAA9D /* arbitrappViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 242B83A713D35F03000BAA9D /* arbitrappViewController.m */; };
+		242B83AB13D35F03000BAA9D /* arbitrappViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 242B83A913D35F03000BAA9D /* arbitrappViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		242B838D13D35F03000BAA9D /* arbitrapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arbitrapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		242B839113D35F03000BAA9D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		242B839313D35F03000BAA9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		242B839513D35F03000BAA9D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		242B839913D35F03000BAA9D /* arbitrapp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "arbitrapp-Info.plist"; sourceTree = "<group>"; };
+		242B839B13D35F03000BAA9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		242B839D13D35F03000BAA9D /* arbitrapp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "arbitrapp-Prefix.pch"; sourceTree = "<group>"; };
+		242B839E13D35F03000BAA9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		242B83A013D35F03000BAA9D /* arbitrappAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = arbitrappAppDelegate.h; sourceTree = "<group>"; };
+		242B83A113D35F03000BAA9D /* arbitrappAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = arbitrappAppDelegate.m; sourceTree = "<group>"; };
+		242B83A413D35F03000BAA9D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		242B83A613D35F03000BAA9D /* arbitrappViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = arbitrappViewController.h; sourceTree = "<group>"; };
+		242B83A713D35F03000BAA9D /* arbitrappViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = arbitrappViewController.m; sourceTree = "<group>"; };
+		242B83AA13D35F03000BAA9D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/arbitrappViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		242B838A13D35F03000BAA9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242B839213D35F03000BAA9D /* UIKit.framework in Frameworks */,
+				242B839413D35F03000BAA9D /* Foundation.framework in Frameworks */,
+				242B839613D35F03000BAA9D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		242B838213D35F03000BAA9D = {
+			isa = PBXGroup;
+			children = (
+				242B839713D35F03000BAA9D /* arbitrapp */,
+				242B839013D35F03000BAA9D /* Frameworks */,
+				242B838E13D35F03000BAA9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		242B838E13D35F03000BAA9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				242B838D13D35F03000BAA9D /* arbitrapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		242B839013D35F03000BAA9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				242B839113D35F03000BAA9D /* UIKit.framework */,
+				242B839313D35F03000BAA9D /* Foundation.framework */,
+				242B839513D35F03000BAA9D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		242B839713D35F03000BAA9D /* arbitrapp */ = {
+			isa = PBXGroup;
+			children = (
+				242B83A013D35F03000BAA9D /* arbitrappAppDelegate.h */,
+				242B83A113D35F03000BAA9D /* arbitrappAppDelegate.m */,
+				242B83A313D35F03000BAA9D /* MainWindow.xib */,
+				242B83A613D35F03000BAA9D /* arbitrappViewController.h */,
+				242B83A713D35F03000BAA9D /* arbitrappViewController.m */,
+				242B83A913D35F03000BAA9D /* arbitrappViewController.xib */,
+				242B839813D35F03000BAA9D /* Supporting Files */,
+			);
+			path = arbitrapp;
+			sourceTree = "<group>";
+		};
+		242B839813D35F03000BAA9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				242B839913D35F03000BAA9D /* arbitrapp-Info.plist */,
+				242B839A13D35F03000BAA9D /* InfoPlist.strings */,
+				242B839D13D35F03000BAA9D /* arbitrapp-Prefix.pch */,
+				242B839E13D35F03000BAA9D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		242B838C13D35F03000BAA9D /* arbitrapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 242B83AE13D35F03000BAA9D /* Build configuration list for PBXNativeTarget "arbitrapp" */;
+			buildPhases = (
+				242B838913D35F03000BAA9D /* Sources */,
+				242B838A13D35F03000BAA9D /* Frameworks */,
+				242B838B13D35F03000BAA9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = arbitrapp;
+			productName = arbitrapp;
+			productReference = 242B838D13D35F03000BAA9D /* arbitrapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		242B838413D35F03000BAA9D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 242B838713D35F03000BAA9D /* Build configuration list for PBXProject "arbitrapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 242B838213D35F03000BAA9D;
+			productRefGroup = 242B838E13D35F03000BAA9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				242B838C13D35F03000BAA9D /* arbitrapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		242B838B13D35F03000BAA9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242B839C13D35F03000BAA9D /* InfoPlist.strings in Resources */,
+				242B83A513D35F03000BAA9D /* MainWindow.xib in Resources */,
+				242B83AB13D35F03000BAA9D /* arbitrappViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		242B838913D35F03000BAA9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242B839F13D35F03000BAA9D /* main.m in Sources */,
+				242B83A213D35F03000BAA9D /* arbitrappAppDelegate.m in Sources */,
+				242B83A813D35F03000BAA9D /* arbitrappViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		242B839A13D35F03000BAA9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				242B839B13D35F03000BAA9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		242B83A313D35F03000BAA9D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				242B83A413D35F03000BAA9D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		242B83A913D35F03000BAA9D /* arbitrappViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				242B83AA13D35F03000BAA9D /* en */,
+			);
+			name = arbitrappViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		242B83AC13D35F03000BAA9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		242B83AD13D35F03000BAA9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		242B83AF13D35F03000BAA9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "arbitrapp/arbitrapp-Prefix.pch";
+				INFOPLIST_FILE = "arbitrapp/arbitrapp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		242B83B013D35F03000BAA9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "arbitrapp/arbitrapp-Prefix.pch";
+				INFOPLIST_FILE = "arbitrapp/arbitrapp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		242B838713D35F03000BAA9D /* Build configuration list for PBXProject "arbitrapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				242B83AC13D35F03000BAA9D /* Debug */,
+				242B83AD13D35F03000BAA9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		242B83AE13D35F03000BAA9D /* Build configuration list for PBXNativeTarget "arbitrapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				242B83AF13D35F03000BAA9D /* Debug */,
+				242B83B013D35F03000BAA9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 242B838413D35F03000BAA9D /* Project object */;
+}
