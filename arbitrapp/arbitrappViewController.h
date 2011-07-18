@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "YellowCard.h"
+
 
 @interface arbitrappViewController : UIViewController {
     
+    IBOutlet YellowCard *yellow;
+    
 }
+
+-(IBAction) gotoYellowCard;
 
 @end

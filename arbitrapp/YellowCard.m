@@ -2,12 +2,11 @@
 //  YellowCard.m
 //  arbitrapp
 //
-//  Created by Horacio Herrera on 7/18/11.
+//  Created by Debora Herrera on 7/18/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
 #import "YellowCard.h"
-
 
 @implementation YellowCard
 
@@ -18,11 +17,6 @@
         // Custom initialization
     }
     return self;
-}
-
-- (void)dealloc
-{
-    [super dealloc];
 }
 
 - (void)didReceiveMemoryWarning

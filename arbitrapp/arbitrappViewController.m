@@ -10,6 +10,13 @@
 
 @implementation arbitrappViewController
 
+
+-(IBAction) gotoYellowCard{
+    
+    [self presentModalViewController:yellow animated:YES];
+    
+}
+
 - (void)dealloc
 {
     [super dealloc];
