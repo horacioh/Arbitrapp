@@ -17,6 +17,13 @@
     
 }
 
+-(IBAction)gotoRedCard {
+    
+    
+    [self presentModalViewController:red animated:YES];
+    
+}
+
 - (void)dealloc
 {
     [super dealloc];

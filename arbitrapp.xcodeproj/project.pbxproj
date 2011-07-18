@@ -16,6 +16,10 @@
 		242B83A513D35F03000BAA9D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 242B83A313D35F03000BAA9D /* MainWindow.xib */; };
 		242B83A813D35F03000BAA9D /* arbitrappViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 242B83A713D35F03000BAA9D /* arbitrappViewController.m */; };
 		242B83AB13D35F03000BAA9D /* arbitrappViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 242B83A913D35F03000BAA9D /* arbitrappViewController.xib */; };
+		2445459C13D43E20005BC582 /* YellowCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2445459A13D43E20005BC582 /* YellowCard.m */; };
+		2445459D13D43E20005BC582 /* YellowCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2445459B13D43E20005BC582 /* YellowCard.xib */; };
+		244545AB13D46C24005BC582 /* RedCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 244545A913D46C24005BC582 /* RedCard.m */; };
+		244545AC13D46C24005BC582 /* RedCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 244545AA13D46C24005BC582 /* RedCard.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,12 @@
 		242B83A613D35F03000BAA9D /* arbitrappViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = arbitrappViewController.h; sourceTree = "<group>"; };
 		242B83A713D35F03000BAA9D /* arbitrappViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = arbitrappViewController.m; sourceTree = "<group>"; };
 		242B83AA13D35F03000BAA9D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/arbitrappViewController.xib; sourceTree = "<group>"; };
+		2445459913D43E20005BC582 /* YellowCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowCard.h; sourceTree = "<group>"; };
+		2445459A13D43E20005BC582 /* YellowCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowCard.m; sourceTree = "<group>"; };
+		2445459B13D43E20005BC582 /* YellowCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YellowCard.xib; sourceTree = "<group>"; };
+		244545A813D46C24005BC582 /* RedCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedCard.h; sourceTree = "<group>"; };
+		244545A913D46C24005BC582 /* RedCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedCard.m; sourceTree = "<group>"; };
+		244545AA13D46C24005BC582 /* RedCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RedCard.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +93,14 @@
 				242B83A113D35F03000BAA9D /* arbitrappAppDelegate.m */,
 				242B83A313D35F03000BAA9D /* MainWindow.xib */,
 				242B83A613D35F03000BAA9D /* arbitrappViewController.h */,
+				244545A813D46C24005BC582 /* RedCard.h */,
+				244545A913D46C24005BC582 /* RedCard.m */,
+				244545AA13D46C24005BC582 /* RedCard.xib */,
 				242B83A713D35F03000BAA9D /* arbitrappViewController.m */,
 				242B83A913D35F03000BAA9D /* arbitrappViewController.xib */,
+				2445459913D43E20005BC582 /* YellowCard.h */,
+				2445459A13D43E20005BC582 /* YellowCard.m */,
+				2445459B13D43E20005BC582 /* YellowCard.xib */,
 				242B839813D35F03000BAA9D /* Supporting Files */,
 			);
 			path = arbitrapp;
@@ -151,6 +167,8 @@
 				242B839C13D35F03000BAA9D /* InfoPlist.strings in Resources */,
 				242B83A513D35F03000BAA9D /* MainWindow.xib in Resources */,
 				242B83AB13D35F03000BAA9D /* arbitrappViewController.xib in Resources */,
+				2445459D13D43E20005BC582 /* YellowCard.xib in Resources */,
+				244545AC13D46C24005BC582 /* RedCard.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +182,8 @@
 				242B839F13D35F03000BAA9D /* main.m in Sources */,
 				242B83A213D35F03000BAA9D /* arbitrappAppDelegate.m in Sources */,
 				242B83A813D35F03000BAA9D /* arbitrappViewController.m in Sources */,
+				2445459C13D43E20005BC582 /* YellowCard.m in Sources */,
+				244545AB13D46C24005BC582 /* RedCard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +300,7 @@
 				242B83B013D35F03000BAA9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

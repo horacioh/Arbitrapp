@@ -1,19 +1,18 @@
 //
-//  YellowCard.m
+//  RedCard.m
 //  arbitrapp
 //
 //  Created by Debora Herrera on 7/18/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "YellowCard.h"
+#import "RedCard.h"
 
-@implementation YellowCard
+@implementation RedCard
 
-
--(IBAction)goBackFromYellow {
+-(IBAction)gotoMenu {
     
-    [self dismissModalViewControllerAnimated:YES];
+   [self dismissModalViewControllerAnimated:YES];
     
 }
 

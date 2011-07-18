@@ -8,14 +8,16 @@
 
 #import <UIKit/UIKit.h>
 #import "YellowCard.h"
+#import "RedCard.h"
 
 
 @interface arbitrappViewController : UIViewController {
     
     IBOutlet YellowCard *yellow;
-    
+    IBOutlet RedCard *red;
 }
 
 -(IBAction) gotoYellowCard;
+-(IBAction)gotoRedCard;
 
 @end
