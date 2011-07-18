@@ -4,7 +4,7 @@
 //
 //  Created by Horacio Herrera on 7/17/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
+//  VERSION EDITADA EN MACPRO
 
 #import "arbitrappAppDelegate.h"
 
